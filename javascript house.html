@@ -1,0 +1,85 @@
+<html>
+    <head></head>
+  <body>
+
+<script language="JavaScript">
+
+background(208, 217, 217);
+fill(174, 180, 214);
+triangle(172, 28, 350, 150, 50, 150);
+
+fill(255, 255, 255);
+rect(60, 150, 280, 207);
+
+fill(120, 80, 19);
+rect(180, 280, 40, 77);
+
+// Defining variables for all loops.
+var cloud = 0,
+    siding = 0, 
+    flowers = 0, 
+    cloudb = 0,
+    bottomgrass = 0,
+    windows = 0;
+
+//Clouds the dark ones.
+while (cloud < 10) {
+    fill(140, 140, 140);
+    ellipse(51*2*cloud, 36, 98, 40);
+    cloud ++;
+}
+
+while (cloudb < 10) {
+    fill(240, 230, 240);
+    ellipse(68*cloudb, 9, 81, 47);
+    cloudb ++;
+}
+
+while (siding < 6) {
+    fill(194, 177, 177);
+    rect(63, 152+31*siding, 273, 39);
+    siding +=1;
+}
+
+
+while (bottomgrass < 5) {
+    fill(5, 200, 0);
+    rect(-14, 352, 427, 120);
+    bottomgrass ++;
+}
+
+// Dark Green grass, even though the variable is called flowers. 
+while (flowers < 10) {
+    fill(10, 120, 100);
+    rect(42*flowers, 346, 30,55);
+    flowers ++;
+}
+
+while (windows < 5) {
+var botwindow = 0; 
+
+    fill(163, 116, 116);
+    rect(174, 269, 54, 78);
+    windows ++;
+    
+    while (botwindow < 2) {
+        fill(color, 100, 200);
+        rect(50*windows+30, 50*botwindow+164, 42, 43);
+        botwindow ++;
+    
+    }
+}
+
+
+   
+
+while (bottomgrass < 5) {
+    fill(5, 200, 0);
+    rect(-14, 416, 427, 120);
+    bottomgrass ++;
+}
+
+
+</script>
+</body>
+</html>
